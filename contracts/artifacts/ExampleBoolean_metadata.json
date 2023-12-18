@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExapmpleBoolean.sol": "ExampleBoolean"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExapmpleBoolean.sol": {
+			"keccak256": "0x5ff7ee2e755aa3ba313d6096bd3d0d9a0cf4c7f8ad6d4520a2e0066dd735b804",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://abdb9dd453de40a1d6c749338a5fe4db6b158d28aa8c6d8b216172e7938b2694",
+				"dweb:/ipfs/Qme8BBrb43958533Nr8fCAWTkmfk9cDLtBPMFAFtGKZo3T"
+			]
+		}
+	},
+	"version": 1
+}
