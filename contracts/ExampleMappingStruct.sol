@@ -14,10 +14,14 @@ contract MappingStructExample {
         uint numDeposits;
         mapping(uint => Transaction) deposits;
         uint numWithdrawals;
-        mapping(uint => Transaction) withdrawls;
+        mapping(uint => Transaction) withdrawals;
     }
 
-    mapping(address => Balance) balances;
+    mapping(address => Balance) public balances;
+
+    function getDepositNum(address _from, uint _numDeposit) public view returns(Transaction memory) {
+            return balances[_from].deposits[_numDeposit];
+    }
 
 
     function depositMoney() public payable {
@@ -34,7 +38,7 @@ contract MappingStructExample {
 
         Transaction memory withdrawal = Transaction(_amount, block.timestamp);
         balances[msg.sender].withdrawals[balances[msg.sender].numWithdrawals] = withdrawal;
-        balances[msg.sender].numWithdrawals++
+        balances[msg.sender].numWithdrawals++;
 
         _to.transfer(_amount);
     }
