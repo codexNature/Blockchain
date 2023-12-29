@@ -6,21 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "NotAllowedError",
-				"type": "error"
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "aFunction",
-				"outputs": [],
-				"stateMutability": "pure",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -37,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleTryCatch.sol": "WillThrow"
+			"contracts/SmartContractWallet.sol": "Consumer"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -51,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleTryCatch.sol": {
-			"keccak256": "0x11a87efc8b7a52eab1a41646321bb11f41ddb55266c82c624f8202f042982051",
+		"contracts/SmartContractWallet.sol": {
+			"keccak256": "0x4a6fcef4547be4344b12c7925118c82fa2b96efcf93b911335060f492580b327",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2b89b53f2dfd1d82acdb6f8a3206293babf6d5197e1b4597ab28b310b478b569",
-				"dweb:/ipfs/QmfQG9vpBnr1V4NzgxBcSHXuGZw7sQCU9X5w393pYUfdfG"
+				"bzz-raw://a2cbd35f1fd63bdaeaa298071e9a900bd35c189a86fab7b83eebc5a800beb3b7",
+				"dweb:/ipfs/QmTnUeZsLNXHkMn8JJrJ4fAeuVZY5EbxuhtCDaCpzSSQdC"
 			]
 		}
 	},

@@ -5,7 +5,7 @@ pragma solidity >=0.8.2 <0.9.0;
 contract WillThrow {
     error NotAllowedError(string); //custom exception are defined at the begining of a contract
     function aFunction() public pure {
-        //require(false, "Error Message"); //requre will fre an exception called Error
+        //require(false, "Error Message"); //requre will fire an exception called Error
         //assert(false); //while assert will fire an exception called Panic
         revert NotAllowedError("You are not allowed");
     }
