@@ -11,6 +11,31 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "TokensSent",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -82,11 +107,11 @@
 	},
 	"sources": {
 		"contracts/SampleEvent.sol": {
-			"keccak256": "0x5e2161cdfbd1a1a65a61c9ab094bde216d3c6f76d5f34cb9089daa05f8803cc2",
+			"keccak256": "0x4ad8be5c76b3fc4d7dda75a298a20f49a3fa57c069400835e1b89f5f19dfcbac",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://119b7bb4adb437f071f1bb76f22dc2590c20fd4a780f81521480e85020b982d8",
-				"dweb:/ipfs/Qmb2mDM7gU1U3tmEcZYEGQoJBYa5TLpVY6YHDp9p7A7h7B"
+				"bzz-raw://a32d6728f7aeb7201c7935e7bcd3527a814076f9cfef59bf9452bcce2946555e",
+				"dweb:/ipfs/QmTjscdrTWYuj9iVfE2StuFGnCKG4TniHBtqqjpcmLeoJP"
 			]
 		}
 	},
