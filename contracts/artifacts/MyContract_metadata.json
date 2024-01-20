@@ -7,7 +7,18 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myUint",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,12 +32,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "someCrypticFunctionNameABC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "newUint",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyUint",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SampleDebugging.sol": "MyContract"
+			"contracts/SampleVerification.sol": "MyContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SampleDebugging.sol": {
-			"keccak256": "0x9db90fde7a683eafe38445e1d6ae5ae5691e25d4eeceb1485b29212c5a5a5e9f",
+		"contracts/SampleVerification.sol": {
+			"keccak256": "0x550770419f347ad9fe1de2781f4c7b6d9636b9108a81f7f9f17dbf2cda1a2c66",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://92f9f3c701ea7f39e024196cd8eb57027d39a4556bfd4243f5c5583e75938294",
-				"dweb:/ipfs/QmTygNJLJU1SPdiUePHDiv2wZtpiBqfXy7zxkyn1PzpPpT"
+				"bzz-raw://99e35f599bf7f9630015f8999af6da6939318eb24ee09af8689d99f2ed193c8d",
+				"dweb:/ipfs/QmUKYyzbayGEu9N7tvLxPgdjGAzFX63WrBPBgMh26cnPJX"
 			]
 		}
 	},

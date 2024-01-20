@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destroySmartContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/SampleSelfDestruct.sol": "StartStopUpdateExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/SampleSelfDestruct.sol": {
+			"keccak256": "0xd4ffe52c020fc27f7a0fea32f59644ad4fe3335b13314c6a13a32d36242e04a9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fd3e0d4adc93f37537a87bddef9e65f095196bbb2c6144311a3e59922127c5df",
+				"dweb:/ipfs/QmUxaNDYqktHmqzPQs8VFKu3H8uaBR72pDA4zHDsQGzgBE"
+			]
+		}
+	},
+	"version": 1
+}
