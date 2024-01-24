@@ -390,6 +390,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "subtractedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "decreaseAllowance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "bytes32",
 						"name": "role",
 						"type": "bytes32"
@@ -446,6 +470,30 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "addedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseAllowance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -841,11 +889,11 @@
 			]
 		},
 		"contracts/SampleToken.sol": {
-			"keccak256": "0xda196505544f6a78aaf78e3565e644d5d4a58789c4f2e33e190610509592b66f",
-			"license": "MIT",
+			"keccak256": "0xccea17582d2a2cdf83c98e919a2a10b1485befcb439f3ed52f4cc3a4291f43f7",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f0e09cbc92cc8919e5679251b4089d701dc8e043bfececfa44833640bc6ecdaf",
-				"dweb:/ipfs/QmTuSupDocgDmj3CvSAJ8A6MeX2pi8knohcAEhjXawWtFE"
+				"bzz-raw://26cab65441db780b060cbee82dce8658aa9750c7f97451055179950943e6a298",
+				"dweb:/ipfs/QmXLAKZ8gaBTmXUpouJsDxVq225RoC7vnoMsVpYAU7vFZ5"
 			]
 		}
 	},

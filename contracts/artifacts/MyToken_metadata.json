@@ -422,7 +422,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SampleToken.sol": "MyToken"
+			"contracts/SampleToken2.sol": "MyToken"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -476,12 +476,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/SampleToken.sol": {
-			"keccak256": "0x14f222f175e02f5d168bf79100727d39ba758c06425a6a6b708362b8b11694bd",
-			"license": "MIT",
+		"contracts/SampleToken2.sol": {
+			"keccak256": "0x52532dc6ad80c3bf1bee102994f5e158300416136a77cbd136bc1ebc21d57819",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6234c15f77f139c2e629f9c8f3ad20914768b9f6633469f4e9937bcc9410e17c",
-				"dweb:/ipfs/QmSAcjbU2St5KLoYuCHuTkUwo2F3sqEh44wQnFKsM9W89z"
+				"bzz-raw://26633507c376cf96890b7700be6b35fe21852bfcd1da448acc8ce67b6cfa797c",
+				"dweb:/ipfs/QmfKLuUxWb3rSAigxMZMhZWQQp6ogWZbspjdLBMKxRHZwi"
 			]
 		}
 	},
