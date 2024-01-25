@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ownerble.sol": "Owner"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ownerble.sol": {
+			"keccak256": "0xd83c0357111e2ecc2bfed534ba35097bb842766b07f36e1feecee1a9a139873d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://56415358ce7a59e472aa61891dc1626054e7e67396262ef9e82abfcc0bc0c902",
+				"dweb:/ipfs/QmeE9HT3RJnGdVfW97fWr5D5KtvXugizHsVDJz2tK2xTuR"
+			]
+		}
+	},
+	"version": 1
+}

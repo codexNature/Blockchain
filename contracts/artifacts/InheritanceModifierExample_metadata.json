@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "creatNewToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleModifier2.sol": "InheritanceModifierExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleModifier2.sol": {
+			"keccak256": "0x65dd5cf04e2d0f7ee5d4079f0935c16e3c285fcb194c1ce87ebd7eeb768d672f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8fcaf8ab3b442fdbc168847e15cd08e04cf0591ccf20a71e21f29ba1507e9937",
+				"dweb:/ipfs/QmdEcYAQsD2fJzUPNx15cqGo4WWt329KKCMo2q3eTxz4US"
+			]
+		},
+		"contracts/Ownerble.sol": {
+			"keccak256": "0xd83c0357111e2ecc2bfed534ba35097bb842766b07f36e1feecee1a9a139873d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://56415358ce7a59e472aa61891dc1626054e7e67396262ef9e82abfcc0bc0c902",
+				"dweb:/ipfs/QmeE9HT3RJnGdVfW97fWr5D5KtvXugizHsVDJz2tK2xTuR"
+			]
+		}
+	},
+	"version": 1
+}
